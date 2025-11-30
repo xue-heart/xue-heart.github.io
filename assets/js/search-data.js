@@ -451,22 +451,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-echo3d",
-          title: 'Echo3D',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-clas",
-          title: 'CLAS',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-motion",
-          title: 'Motion',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-wall-thickness",
+          section: "News",},{id: "projects-wall-thickness",
           title: 'Wall Thickness',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -496,6 +481,21 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p1_echone/";
+            },},{id: "projects-echo3d",
+          title: 'Echo3D',
+          description: "a project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p2_echo3D/";
+            },},{id: "projects-clas",
+          title: 'CLAS',
+          description: "a project that redirects to another website",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p3_clas/";
+            },},{id: "projects-tbd",
+          title: 'TBD',
+          description: "another without an image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p4/";
             },},{
         id: 'social-cv',
         title: 'CV',
