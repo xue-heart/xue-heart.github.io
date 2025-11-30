@@ -4,7 +4,7 @@ title: Wall Thickness
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: AI for structure
 ---
 
 Every project has a beautiful feature showcase page.

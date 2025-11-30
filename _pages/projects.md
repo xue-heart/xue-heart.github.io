@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of cool projects in CardioAI-XUE. 心迹实验室的代表性项目。
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [AI for structure, AI for motion, clinical application, 3D]
 horizontal: false
 ---
 

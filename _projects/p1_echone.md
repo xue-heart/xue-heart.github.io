@@ -4,7 +4,7 @@ title: EchoOne
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: AI for structure
 related_publications: true
 ---
 
