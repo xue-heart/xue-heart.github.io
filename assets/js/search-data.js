@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of cool projects in CardioAI-XUE. 心迹实验室的代表性项目。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -451,12 +451,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-echoone",
-          title: 'EchoOne',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-echo3d",
+          section: "News",},{id: "projects-echo3d",
           title: 'Echo3D',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -496,6 +491,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-echoone",
+          title: 'EchoOne',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p1_echone/";
             },},{
         id: 'social-cv',
         title: 'CV',
