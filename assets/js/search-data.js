@@ -440,60 +440,58 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-ctrl-genaug-可控生成式医学序列数据增强-被-international-journal-of-computer-vision-ijcv-录用-2026-年见刊",
+          title: 'Ctrl-GenAug（可控生成式医学序列数据增强）被 International Journal of Computer Vision (IJCV) 录用，2026 年见刊。',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-多切面超声二尖瓣反流检测与中央-偏心性分类工作被-journal-of-applied-clinical-medical-physics-录用",
+          title: '多切面超声二尖瓣反流检测与中央/偏心性分类工作被 Journal of Applied Clinical Medical Physics 录用。',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-实验室网站正式上线-研究成果按方向分栏展示-支持在线演示入口-陆续部署中",
+          title: '实验室网站正式上线！研究成果按方向分栏展示，支持在线演示入口（陆续部署中）。',
           description: "",
-          section: "News",},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+          section: "News",},{id: "projects-ctrl-genaug",
+          title: 'Ctrl-GenAug',
+          description: "可控生成式数据增强——为医学序列分类任务合成语义与顺序可控的样本",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-echoqc",
+          title: 'EchoQC',
+          description: "可解释深度学习框架实现超声心动图视频智能质量控制",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-ie-cad",
+          title: 'IE-CAD',
+          description: "超声心动图视频驱动的冠心病智能诊断与狭窄程度分级",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-心脏自动解读临床验证",
+          title: '心脏自动解读临床验证',
+          description: "成人超声心动图心脏结构与功能自动解读系统的多中心形式化验证",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{id: "projects-echoone",
-          title: 'EchoOne',
-          description: "with background image",
+          title: 'EchoONE',
+          description: "统一多切面超声心动图分割模型——一个模型完成全部标准切面的像素级解析",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p1_echone/";
             },},{id: "projects-echo3d",
           title: 'Echo3D',
-          description: "a project with a background image and giscus comments",
+          description: "从稀疏无姿态二维超声切片重建三维心脏——免定位、免标定的术中三维成像",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p2_echo3D/";
             },},{id: "projects-clas",
           title: 'CLAS',
-          description: "a project that redirects to another website",
+          description: "心脏功能智能定量——从超声序列精准估计射血分数等心功能指标",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p3_clas/";
-            },},{id: "projects-tbd",
-          title: 'TBD',
-          description: "another without an image",
+            },},{id: "projects-二尖瓣反流定量分析",
+          title: '二尖瓣反流定量分析',
+          description: "多通道超声的二尖瓣反流检测、定级与偏心性分类",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p4/";
-            },},{id: "projects-wall-thickness",
-          title: 'Wall Thickness',
-          description: "a project with a background image",
+            },},{id: "projects-心肌室壁厚度分析",
+          title: '心肌室壁厚度分析',
+          description: "短轴超声时序形变学习实现左室壁厚度自动测量",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p5_rwt/";
             },},{
