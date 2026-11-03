@@ -23,3 +23,161 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* ==========================================================================
+   CardioAI-XUE (心迹) custom styles — 字体与版式美化
+   ========================================================================== */
+
+/* ---- 全局字体：思源黑体 + 系统中文回退 ---- */
+body {
+  font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB",
+    "Source Han Sans SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.85;
+  letter-spacing: 0.015em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- 标题：思源宋体，层级感 ---- */
+h1, h2, h3, h4, h5, h6,
+.post-title, .post-list h2 {
+  font-family: "Noto Serif SC", "Noto Sans SC", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #1a2332;
+}
+
+.post-title {
+  font-size: 2.15rem;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  padding-bottom: 0.35em;
+  border-bottom: 2px solid #eef1f6;
+}
+
+/* ---- 链接与交互 ---- */
+a {
+  transition: color 0.18s ease, border-color 0.18s ease;
+  text-underline-offset: 3px;
+}
+
+::selection {
+  background: #dce7ff;
+  color: #16306e;
+}
+
+/* ---- 按钮：圆角 + 主色渐变 ---- */
+.btn-primary {
+  background: linear-gradient(135deg, #2f6df6 0%, #1e4fd8 100%);
+  border: none;
+  border-radius: 999px;
+  padding: 0.55rem 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 8px rgba(47, 109, 246, 0.28);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(47, 109, 246, 0.38);
+}
+
+/* ---- 成果卡片：悬浮抬升 + 柔和阴影 ---- */
+.projects .card,
+.project-card {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(16, 42, 87, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.projects .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(16, 42, 87, 0.14);
+}
+.projects .card-title {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 600;
+}
+.projects .card-text {
+  color: #4a5568;
+  line-height: 1.75;
+}
+
+/* ---- 分类标题 ---- */
+.projects h2.category {
+  font-size: 1.35rem;
+  color: #16306e;
+  margin-top: 1.6rem;
+}
+.projects h2.category::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 1.1em;
+  margin-right: 0.5rem;
+  vertical-align: -0.15em;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #2f6df6, #7aa5ff);
+}
+
+/* ---- 出版物列表条目 ---- */
+.publications ol.bibliography li {
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  transition: background 0.15s ease;
+}
+.publications ol.bibliography li:hover {
+  background: #f6f8fc;
+}
+.publications ol.bibliography .title {
+  font-weight: 500;
+  color: #16306e;
+}
+.publications ol.bibliography .author {
+  color: #4a5568;
+}
+
+/* ---- 导航栏 ---- */
+.navbar {
+  box-shadow: 0 1px 0 rgba(16, 42, 87, 0.06);
+}
+.navbar-brand {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* ---- 首页 hero 区域 ---- */
+.about .post-header,
+.about .profile {
+  margin-top: 0.5rem;
+}
+
+/* ---- 引用块 ---- */
+blockquote {
+  border-left: 4px solid #7aa5ff;
+  background: #f6f8fc;
+  border-radius: 0 8px 8px 0;
+  padding: 0.6rem 1.2rem;
+  color: #4a5568;
+}
+
+/* ---- 表格 ---- */
+table thead th {
+  background: #f2f5fb;
+  border-bottom: 2px solid #d8e2f5;
+}
+
+/* ---- 页脚 ---- */
+footer.fixed-bottom,
+footer.sticky-bottom {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+}
+
