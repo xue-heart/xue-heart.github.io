@@ -2,7 +2,7 @@
 layout: page
 title: Ctrl-GenAug
 description: 可控生成式数据增强——为医学序列分类任务合成语义与顺序可控的样本
-img: assets/img/4.jpg
+img: assets/img/projects/zhou2024ctrl.png
 importance: 4
 category: 生成式人工智能
 related_publications: true

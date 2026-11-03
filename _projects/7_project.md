@@ -2,7 +2,7 @@
 layout: page
 title: EchoQC
 description: 可解释深度学习框架实现超声心动图视频智能质量控制
-img: assets/img/5.jpg
+img: assets/img/projects/du2025deep.png
 importance: 4
 category: 心脏超声智能分析
 related_publications: true

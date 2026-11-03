@@ -2,7 +2,7 @@
 layout: page
 title: Echo3D
 description: 从稀疏无姿态二维超声切片重建三维心脏——免定位、免标定的术中三维成像
-img: assets/img/3.jpg
+img: assets/img/projects/echo3d.png
 importance: 2
 category: 心脏三维建模
 related_publications: true

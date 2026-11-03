@@ -2,7 +2,7 @@
 layout: page
 title: IE-CAD
 description: 超声心动图视频驱动的冠心病智能诊断与狭窄程度分级
-img: assets/img/6.jpg
+img: assets/img/projects/guo2025echocardiographic.png
 importance: 5
 category: 临床转化
 related_publications: true

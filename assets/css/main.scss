@@ -181,3 +181,26 @@ footer.sticky-bottom {
   backdrop-filter: blur(6px);
 }
 
+/* ---- 影响因子 / CCF 徽章 ---- */
+.if-badge,
+.ccf-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.22em 0.7em;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+.if-badge {
+  color: #8a5a00;
+  background: linear-gradient(135deg, #fff3d6, #ffe6ad);
+  border: 1px solid #f2d58a;
+}
+.ccf-badge {
+  color: #123c8a;
+  background: linear-gradient(135deg, #e3ecff, #ccdcff);
+  border: 1px solid #a9c2f5;
+}
+

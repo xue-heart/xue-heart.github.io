@@ -2,7 +2,7 @@
 layout: page
 title: 心脏自动解读临床验证
 description: 成人超声心动图心脏结构与功能自动解读系统的多中心形式化验证
-img: assets/img/8.jpg
+img: assets/img/projects/peng2025formal.png
 importance: 5
 category: 临床转化
 related_publications: true

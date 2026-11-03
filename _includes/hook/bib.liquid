@@ -1,0 +1,7 @@
+{% comment %} 自定义文献标注：影响因子 / CCF 等级（数据来自 papers.bib 的 if/ccf 字段） {% endcomment %}
+{% if entry.if %}
+  <span class="badge if-badge">IF {{ entry.if }}</span>
+{% endif %}
+{% if entry.ccf %}
+  <span class="badge ccf-badge">CCF-{{ entry.ccf }}</span>
+{% endif %}

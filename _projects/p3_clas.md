@@ -2,7 +2,7 @@
 layout: page
 title: CLAS
 description: 心脏功能智能定量——从超声序列精准估计射血分数等心功能指标
-img: assets/img/7.jpg
+img: assets/img/projects/clas.png
 importance: 3
 category: 心脏超声智能分析
 related_publications: true

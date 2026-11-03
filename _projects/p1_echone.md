@@ -2,7 +2,7 @@
 layout: page
 title: EchoONE
 description: 统一多切面超声心动图分割模型——一个模型完成全部标准切面的像素级解析
-img: assets/img/12.jpg
+img: assets/img/projects/echone.png
 importance: 1
 category: 心脏超声智能分析
 related_publications: true
@@ -23,8 +23,8 @@ related_publications: true
 ---
 
 <p>
-  <a href="https://demo.cardioai-xue.top/echoone" target="_blank" class="btn btn-primary">
+  <a href="http://localhost:7860" target="_blank" class="btn btn-primary">
     🚀 在线演示
   </a>
-  <span class="text-muted">（部署于实验室服务器，上传超声图像即可获取分割结果）</span>
+  <span class="text-muted">（本地/实验室服务器部署的演示服务；提供 DICOM 图像或超声视频，在线返回分割结果）</span>
 </p>

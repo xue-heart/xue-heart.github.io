@@ -2,7 +2,7 @@
 layout: page
 title: 心肌室壁厚度分析
 description: 短轴超声时序形变学习实现左室壁厚度自动测量
-img: assets/img/1.jpg
+img: assets/img/projects/zhang2023wall.png
 importance: 3
 category: 心脏超声智能分析
 related_publications: true
@@ -15,7 +15,7 @@ related_publications: true
 
 - 以短轴超声序列为输入，利用心动周期内的时序约束增强心肌边界定位
 - 兼容形变场学习，直接从形变特征回归壁厚度，避免脆弱的分割-测距两段式流程
-- 与深圳人民医院合作完成临床数据验证 {% cite zhang2023tcdeformer zhang2023wall %}
+- 与深圳人民医院合作完成临床数据验证 {% cite zhang2023wall %}
 
 ---
 
