@@ -7,4 +7,4 @@
 研究成果发表于 International Journal of Computer Vision、Medical Image Analysis、
 IEEE Transactions on Medical Imaging、Medical Physics、MICCAI 等国际期刊与会议。
 
-联系方式：xuewf@szu.edu.cn
+邮箱：[xuewf@szu.edu.cn](mailto:xuewf@szu.edu.cn)
